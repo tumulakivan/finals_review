@@ -1,0 +1,31 @@
+.user-wrapper, .pass-wrapper, .btn-wrapper, .confirm-wrapper, .item-wrapper, .quantity-wrapper {
+    display: flex;
+}
+
+.user-wrapper, .pass-wrapper, .confirm-wrapper, .item-wrapper, .quantity-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    width: 20%;
+}
+
+.btn-wrapper > * {
+    margin: 5px;
+}
+
+form > *{
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    width: 150px;
+}

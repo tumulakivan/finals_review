@@ -1,0 +1,23 @@
+th {
+    background-color: #dbdbdb;
+    padding: 5px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.quantity-style, .id-style, .user-style {
+    text-align: center;
+}
+
+.id-style {
+    width: 100px !important;
+}
+
+.table-wrapper {
+    margin: 10px;
+}
